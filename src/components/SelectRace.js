@@ -124,9 +124,6 @@ export const SelectRace = () => {
               Wybierz rasę: {slides[1].name}
             </button>
           </Link>
-          <button className="btn btn-red">
-            <Logout />
-          </button>
         </div>
       </div>
     </section>

@@ -46,7 +46,6 @@ function App() {
             </Switch>
           ) : (
             <Switch>
-              
               <Route exact path="/">
                 <HomePage />
               </Route>
@@ -68,7 +67,6 @@ function App() {
             <></>
           )}
         </main>
-        <aside className="advertising"></aside>
       </div>
     </Router>
   );
