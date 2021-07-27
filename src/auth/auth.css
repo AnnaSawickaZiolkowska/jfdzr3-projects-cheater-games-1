@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
 .form__input:nth-child(2n) {
   flex-grow: 1;
 }
@@ -15,12 +16,13 @@
 /*  MODAL  */
 
 .modal {
-  grid-row: 2/3;
   padding: 30px;
+  width: 350px;
   background: #fafafa;
   box-shadow: rgb(0 0 0 / 10%) 0px 10px 15px -3px,
     rgb(0 0 0 / 5%) 0px 4px 6px -2px;
   text-align: center;
+  align-self: center;
 }
 
 label {
@@ -36,12 +38,12 @@ input {
   outline: none;
   background-color: #fafafa;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 16px;
   transition: all 0.2s;
 }
 
 input:focus {
-  border-color: #315e3c;
+  border-color: var(--color-primary-green);
 }
 
 label[for="logIn-password"] {
